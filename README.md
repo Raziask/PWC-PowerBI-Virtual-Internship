@@ -39,7 +39,7 @@ Through meticulous data analysis and visualization, this project aims to support
 ### Data Analysis Process
 ---
 
-To do this, I will follow the six steps of the data analysis process: Ask, Prepare, Process, Analyze and Share, and Act. SQL Queries Used in perform the above steps:
+To do this, I will follow the six steps of the data analysis process: **Ask, Prepare, Process, Analyze and Share, and Act**.
 
 
   ## ASK
