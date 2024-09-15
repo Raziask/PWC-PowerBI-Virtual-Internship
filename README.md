@@ -267,13 +267,15 @@ These insights can help guide strategies to improve diversity and inclusion, opt
   - Enhance Service Offerings: The “Services Customers Signed Up” section shows the distribution of services. Consider bundling popular services or introducing new features that complement existing ones to increase customer satisfaction and reduce churn.
     
   - Optimize Pricing Strategies: The “Yearly Charges” and “Monthly Charges” data can be used to review and optimize pricing strategies. Offering flexible payment plans or discounts for long term commitments might attract and retain more customers.
-  - Improve Customer Support: The “Number of Tickets” data suggests a need for efficient customer support. Investing in better support tools, training for support staff, and faster resolution times can improve customer satisfaction and reduce churn.
- - 	Analyze Demographics: The “Demographics” section provides insights into the customer base. Tailoring marketing campaigns and service offerings to specific demographic groups can help in better targeting and retaining customers.
-  
-  -  onitor Payment Methods: The “Payment Method” data indicates the preferred payment options. Ensuring a seamless and secure payment process for these methods can enhance the customer experience and reduce churn.
     
- - 	Focus on High-Churn Segments: The “Churn Analysis” section highlights segments with higher churn rates. Conducting in-depth analysis to understand the reasons behind churn in these segments and addressing them can help in retaining more customers.
- - 	
+  - Improve Customer Support: The “Number of Tickets” data suggests a need for efficient customer support. Investing in better support tools, training for support staff, and faster resolution times can improve customer satisfaction and reduce churn.
+    
+ - Analyze Demographics: The “Demographics” section provides insights into the customer base. Tailoring marketing campaigns and service offerings to specific demographic groups can help in better targeting and retaining customers.
+  
+  - onitor Payment Methods: The “Payment Method” data indicates the preferred payment options. Ensuring a seamless and secure payment process for these methods can enhance the customer experience and reduce churn.
+    
+ -  Focus on High-Churn Segments: The “Churn Analysis” section highlights segments with higher churn rates. Conducting in-depth analysis to understand the reasons behind churn in these segments and addressing them can help in retaining more customers.
+    
  - 	Implementing these strategies can help improve customer retention, enhance service offerings, and optimize overall business performance
    
 
