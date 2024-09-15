@@ -87,9 +87,19 @@ The first dashboard provides a comprehensive view of call centre metrics, focusi
 
 
 
-Customer Retention
+Churn Analysis
 This dashboard was developed in response to a request from the telecom's Retention Manager, showcasing key metrics related to customer loyalty and retention. It visualizes data to predict customer churn and identifies potential strategies to enhance customer retention.
 Access here for live and interactive dashboards.
+
+
+![image](https://github.com/user-attachments/assets/93e7bc69-ca0c-4f3a-b690-ab7a2dfc3e65)
+
+
+Diversity & Inclusion
+Focusing on the telecom client's goal of improving gender balance at the executive management level, this dashboard visualizes metrics related to diversity and inclusion, offering insights into current trends and areas for action.
+![image](https://github.com/user-attachments/assets/b028ab38-7626-44b1-bf9f-d7c1121a8752)
+
+
 
 
 
