@@ -22,7 +22,7 @@ What I Learned
 
 Background
 
-This project is part of the PwC Switzerland Power BI in Data Analytics Virtual Case Experience, demonstrating the application of digital tools in data visualization, automation, data cleansing, and more to address common business challenges. It features a series of Power BI dashboards focusing on Call Centre Trends, Customer Retention, and Diversity & Inclusion. Each dashboard provides actionable insights into different facets of business operations and strategic planning, aiding PwC Switzerland and its clients in enhancing operational efficiency, fostering customer loyalty, and promoting a more inclusive workplace.
+This project is part of the PwC Switzerland Power BI in Data Analytics Virtual Case Experience, demonstrating the application of digital tools in data visualization, automation, data cleansing, and more to address common business challenges. It features a series of Power BI dashboards focusing on Call Centre Trends, Churn Analysis, and Diversity & Inclusion. Each dashboard provides actionable insights into different facets of business operations and strategic planning, aiding PwC Switzerland and its clients in enhancing operational efficiency, fostering customer loyalty, and promoting a more inclusive workplace.
 
 Through meticulous data analysis and visualization, this project aims to support informed decision-making and highlight areas for improvement and innovation.
 
@@ -30,10 +30,8 @@ Through meticulous data analysis and visualization, this project aims to support
 
  
 
-My Role: Completed a job simulation where I strengthened my PowerBI skills to better understand clients and their data visualisation needs.
-Demonstrated expertise in data visualization through the creation of Power BI dashboards that effectively conveyed KPIs, showcasing the ability to respond to client requests with well-designed solutions.
-Leveraged analytical problem-solving skills to examine HR data, particularly focusing on gender-related KPIs, and identified root causes for gender balance issues at the executive management level, highlighting a commitment to data-driven decision-making.
- 
+My Role: 
+I recently completed a job simulation where I honed my Power BI skills to better comprehend clients’ data visualization requirements. I demonstrated proficiency in data visualization by creating Power BI dashboards that effectively communicated key performance indicators (KPIs), showcasing my ability to respond to client requests with meticulously designed solutions. I leveraged analytical problem-solving skills to scrutinize HR data, particularly focusing on gender-related KPIs, and identified underlying causes for gender balance issues at the executive management level, underscoring my commitment to data-driven decision-making.
 
 To do this, I will follow the six steps of the data analysis process: Ask, Prepare, Process, Analyze and Share, and Act. SQL Queries Used in perform the above steps:
 
@@ -70,7 +68,7 @@ To download the .pbix files, navigate to the folder in this repository where the
 
 
 Process:
-I downloaded the required data set related to task and did cleaning data set and made visualizations to  identify trends by useing the PowerBI Desktop application.Prepared some measures to identify the key performance indicators(KPI).
+I downloaded the requisite dataset pertinent to the task and performed data cleansing. Utilizing the Power BI Desktop application, I created visualizations to discern trends. Additionally, I prepared measures to identify key performance indicators (KPIs).
 
 Analysis:
 
@@ -79,8 +77,7 @@ Measures Used in All Tasks:
 
 
 Call Centre Trends
-The first dashboard provides a comprehensive view of call centre metrics, focusing on customer satisfaction, call volumes, and agent performance. It aids in identifying areas for improvement in call centre operations
-
+The initial dashboard offers an exhaustive overview of call center metrics, emphasizing customer satisfaction, call volumes, and agent performance. It facilitates the identification of areas for enhancement in call center operations.
 
 ![image](https://github.com/user-attachments/assets/7eeec2f7-bac8-4ea4-b12d-f3336e275433)
 
@@ -88,16 +85,21 @@ The first dashboard provides a comprehensive view of call centre metrics, focusi
 
 
 Churn Analysis
-This dashboard was developed in response to a request from the telecom's Retention Manager, showcasing key metrics related to customer loyalty and retention. It visualizes data to predict customer churn and identifies potential strategies to enhance customer retention.
-Access here for live and interactive dashboards.
-
+This dashboard was developed in response to a request from the telecom’s Retention Manager, highlighting key metrics pertaining to customer loyalty and retention. It visualizes data to forecast customer churn and identifies potential strategies to bolster customer retention. Access the live and interactive dashboards here.
 
 ![image](https://github.com/user-attachments/assets/93e7bc69-ca0c-4f3a-b690-ab7a2dfc3e65)
 
 
 Diversity & Inclusion
-Focusing on the telecom client's goal of improving gender balance at the executive management level, this dashboard visualizes metrics related to diversity and inclusion, offering insights into current trends and areas for action.
+Focusing on the telecom client’s objective of enhancing gender balance at the executive management level, this dashboard visualizes metrics related to diversity and inclusion, providing insights into current trends and areas for intervention.
 ![image](https://github.com/user-attachments/assets/b028ab38-7626-44b1-bf9f-d7c1121a8752)
+
+
+
+Summary Of Data
+
+
+
 
 
 
