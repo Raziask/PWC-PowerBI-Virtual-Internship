@@ -82,6 +82,23 @@ Call Centre Trends
 The first dashboard provides a comprehensive view of call centre metrics, focusing on customer satisfaction, call volumes, and agent performance. It aids in identifying areas for improvement in call centre operations
 
 
+![image](https://github.com/user-attachments/assets/7eeec2f7-bac8-4ea4-b12d-f3336e275433)
+
+
+
+
+Customer Retention
+This dashboard was developed in response to a request from the telecom's Retention Manager, showcasing key metrics related to customer loyalty and retention. It visualizes data to predict customer churn and identifies potential strategies to enhance customer retention.
+Access here for live and interactive dashboards.
+
+
+
+
+
+
+
+
+
 
 
 
