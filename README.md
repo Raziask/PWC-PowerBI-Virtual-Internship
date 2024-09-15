@@ -72,26 +72,64 @@ I downloaded the requisite dataset pertinent to the task and performed data clea
 
 ### Analysis:
 
-Measures Used in All Tasks:
-
-
-
-# Call Centre Trends
+   ## Call Centre Trends
 The initial dashboard offers an exhaustive overview of call center metrics, emphasizing customer satisfaction, call volumes, and agent performance. It facilitates the identification of areas for enhancement in call center operations.
+
+    # DAX Measures Used
+
+```Answered = CALCULATE(COUNT('Call Centre Trends'[Call Id]),FILTER('Call Centre Trends','Call Centre Trends'[Answered (Y/N)]="Y"))```
+
+```Resolved(Y) = CALCULATE(COUNT('Call Centre Trends'[Call Id]),FILTER('Call Centre Trends','Call Centre Trends'[Resolved]="Y"))```
+
+
 
 ![image](https://github.com/user-attachments/assets/7eeec2f7-bac8-4ea4-b12d-f3336e275433)
 
 
 
 
-# Churn Analysis
+   ## Churn Analysis
+
 This dashboard was developed in response to a request from the telecom’s Retention Manager, highlighting key metrics pertaining to customer loyalty and retention. It visualizes data to forecast customer churn and identifies potential strategies to bolster customer retention. Access the live and interactive dashboards here.
+
+   # DAX Measures Used:
+   
+```% of Dependent = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Dependents]="yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```% of Partners = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Partner]),'01 Churn-Dataset'[Partner]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[Partner]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```% of Senior Citizen = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[SeniorCitizen]),'01 Churn-Dataset'[SeniorCitizen]=1,'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[SeniorCitizen]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```Online backup in % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[OnlineBackup]),'01 Churn-Dataset'[OnlineBackup]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[OnlineBackup]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```Online Security in % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[OnlineSecurity]),'01 Churn-Dataset'[OnlineSecurity]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[OnlineSecurity]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```Phone Service  in % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[PhoneService]),'01 Churn-Dataset'[PhoneService]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[PhoneService]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```Streaming Movies in % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[StreamingMovies]),'01 Churn-Dataset'[StreamingMovies]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[StreamingMovies]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+```Streaming Tv in % = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[StreamingTV]),'01 Churn-Dataset'[StreamingTV]="Yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[StreamingTV]),'01 Churn-Dataset'[Churn]="Yes"),0)```
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/93e7bc69-ca0c-4f3a-b690-ab7a2dfc3e65)
 
 
-# Diversity & Inclusion
+  ## Diversity & Inclusion
 Focusing on the telecom client’s objective of enhancing gender balance at the executive management level, this dashboard visualizes metrics related to diversity and inclusion, providing insights into current trends and areas for intervention.
+
+ #Dax Measures Used:
+ 
+``` % of Female = DIVIDE('Pharma Group AG'[Number of Female],'Pharma Group AG'[Number of Male]+'Pharma Group AG'[Number of Female])```
+
+```% of Male = DIVIDE('Pharma Group AG'[Number of Male],'Pharma Group AG'[Number of Male]+'Pharma Group AG'[Number of Female])```
+
+```Number of Female = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),FILTER('Pharma Group AG','Pharma Group AG'[Gender]="Female"))```
+
+```Number of Male = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),FILTER('Pharma Group AG','Pharma Group AG'[Gender]="male"))```
+
 ![image](https://github.com/user-attachments/assets/b028ab38-7626-44b1-bf9f-d7c1121a8752)
 
 ### What I Learned
