@@ -1,9 +1,10 @@
 
-### Data Analytics PWC-PowerBI-Virtual-Internship Project
+# Data Analytics PWC-PowerBI-Virtual-Internship Project
 
 I worked on PWC-PowerBI-Virtual-Internship Data Analytics Project. I will be diving into the background, my full process of cleaning, analyzing and visualizing the data, along with my final suggestions and summary of the data. Below is a table of contents in case you want to go to a specific section.
 
-### Table of Contents:
+## Table of Contents
+
 -  [My Role](#my-role)
 
 - [Background](#background)
@@ -44,7 +45,7 @@ To do this, I will follow the six steps of the data analysis process: **Ask, Pre
 
   ## ASK
   
-   ### Task2---- Call Centre Trends
+   #### Task2---- Call Centre Trends
          •  Overall customer satisfaction
 
          •	 Overall calls answered/abandoned
@@ -55,7 +56,7 @@ To do this, I will follow the six steps of the data analysis process: **Ask, Pre
 
          •	 Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
 
-   ### Task3----Customer Retention
+   #### Task3----Customer Retention
    
        -  Define proper KPIs
        
@@ -65,10 +66,10 @@ To do this, I will follow the six steps of the data analysis process: **Ask, Pre
 
 
 
-  ### Task4----Diversity & Inclusion
+  #### Task4----Diversity & Inclusion
 
-1.	Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation
-2.	Write what you think some root causes of their slow progress
+       -	Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation
+       - Write what you think some root causes of their slow progress
 
    
 
@@ -90,10 +91,10 @@ I downloaded the requisite dataset pertinent to the task and performed data clea
 
 ## Analysis
 
-   ## Call Centre Trends
+   ### Call Centre Trends
 The initial dashboard offers an exhaustive overview of call center metrics, emphasizing customer satisfaction, call volumes, and agent performance. It facilitates the identification of areas for enhancement in call center operations.
 
-   ### DAX Measures Used
+   #### DAX Measures Used
 
 ```Answered = CALCULATE(COUNT('Call Centre Trends'[Call Id]),FILTER('Call Centre Trends','Call Centre Trends'[Answered (Y/N)]="Y"))```
 
@@ -106,7 +107,7 @@ The initial dashboard offers an exhaustive overview of call center metrics, emph
 
 
 
-
+ #### Data Visualization Report
 
 ![image](https://github.com/user-attachments/assets/7eeec2f7-bac8-4ea4-b12d-f3336e275433)
 
@@ -127,11 +128,11 @@ The initial dashboard offers an exhaustive overview of call center metrics, emph
    
   
    
-   ## Churn Analysis
+   ### Churn Analysis
 
 This dashboard was developed in response to a request from the telecom’s Retention Manager, highlighting key metrics pertaining to customer loyalty and retention. It visualizes data to forecast customer churn and identifies potential strategies to bolster customer retention. Access the live and interactive dashboards here.
 
-   ### DAX Measures Used:
+   #### DAX Measures Used:
    
 ```% of Dependent = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Dependents]="yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Churn]="Yes"),0)```
 
@@ -158,7 +159,7 @@ This dashboard was developed in response to a request from the telecom’s Reten
 
 
 
-
+#### Data Visualization Report
 
 ![image](https://github.com/user-attachments/assets/93e7bc69-ca0c-4f3a-b690-ab7a2dfc3e65)
 
@@ -180,11 +181,11 @@ This dashboard was developed in response to a request from the telecom’s Reten
   
   
   
-  ## Diversity & Inclusion
+  ### Diversity & Inclusion
   
 Focusing on the telecom client’s objective of enhancing gender balance at the executive management level, this dashboard visualizes metrics related to diversity and inclusion, providing insights into current trends and areas for intervention.
 
-  ### Dax Measures Used
+  #### Dax Measures Used
  
 ``` % of Female = DIVIDE('Pharma Group AG'[Number of Female],'Pharma Group AG'[Number of Male]+'Pharma Group AG'[Number of Female])```
 
@@ -198,6 +199,7 @@ Focusing on the telecom client’s objective of enhancing gender balance at the 
 
 
 
+#### Data Visualization Report
 
 ![image](https://github.com/user-attachments/assets/b028ab38-7626-44b1-bf9f-d7c1121a8752)
 
