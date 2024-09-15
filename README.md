@@ -4,18 +4,21 @@
 I worked on PWC-PowerBI-Virtual-Internship Data Analytics Project. I will be diving into the background, my full process of cleaning, analyzing and visualizing the data, along with my final suggestions and summary of the data. Below is a table of contents in case you want to go to a specific section.
 
 ### Table of Contents:
+-  [My Role](#my-role)
 
-- Background
+- [Background](#background)
 
-- Process Microsoft Excel ,SQL,Tableau
+- [Data Analysis Process](#data-analysis-process)
 
-- Analysis Process
+- [Summary of Data](#summary-of-data)
 
-- Summary of Data
+- [Business Suggestions](#business-suggestions)
 
-- Business Suggestions
+- [What I Learned](#what-i-learned)
 
-- What I Learned
+
+### My Role: 
+I recently completed a job simulation where I honed my Power BI skills to better comprehend clients’ data visualization requirements. I demonstrated proficiency in data visualization by creating Power BI dashboards that effectively communicated key performance indicators (KPIs), showcasing my ability to respond to client requests with meticulously designed solutions. I leveraged analytical problem-solving skills to scrutinize HR data, particularly focusing on gender-related KPIs, and identified underlying causes for gender balance issues at the executive management level, underscoring my commitment to data-driven decision-making.
 
 
 
@@ -30,35 +33,41 @@ Through meticulous data analysis and visualization, this project aims to support
 
  
 
-### My Role: 
-I recently completed a job simulation where I honed my Power BI skills to better comprehend clients’ data visualization requirements. I demonstrated proficiency in data visualization by creating Power BI dashboards that effectively communicated key performance indicators (KPIs), showcasing my ability to respond to client requests with meticulously designed solutions. I leveraged analytical problem-solving skills to scrutinize HR data, particularly focusing on gender-related KPIs, and identified underlying causes for gender balance issues at the executive management level, underscoring my commitment to data-driven decision-making.
+
+### Data Analysis Process
 
 To do this, I will follow the six steps of the data analysis process: Ask, Prepare, Process, Analyze and Share, and Act. SQL Queries Used in perform the above steps:
 
 
-### ASK
-# Task2---- Call Centre Trends
-•	Overall customer satisfaction
-•	Overall calls answered/abandoned
-•	Calls by time
-•	Average speed of answer
-•	Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
+  ## ASK
+  
+   ### Task2---- Call Centre Trends
+         •  Overall customer satisfaction
 
-# Task3----Customer Retention
+         •	 Overall calls answered/abandoned
+
+         •  Calls by time
+
+         •	 Average speed of answer
+
+         •	 Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
+
+   ### Task3----Customer Retention
+   
+       -  Define proper KPIs
+       
+       -  Create a dashboard for the retention manager reflecting the KPIs
+       
+       -	 Write a short email to him (the engagement partner) explaining your findings, and include suggestions as to what needs to be changed
 
 
-1.	Define proper KPIs
-2.	Create a dashboard for the retention manager reflecting the KPIs
-3.	Write a short email to him (the engagement partner) explaining your findings, and include suggestions as to what needs to be changed
 
-
-
-# Task4_Diversity & Inclusion
+  ### Task4----Diversity & Inclusion
 
 1.	Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation
 2.	Write what you think some root causes of their slow progress
 
- ###  Prepare
+ ##  Prepare
 
    The .pbix files associated with each dashboard are hosted within this repository. After installing Power BI Desktop, download the .pbix files from the repository and open them with Power BI Desktop. The data sources are embedded within the files, eliminating the need for additional setup to explore the visualizations. Users can navigate through the dashboards using the tabs at the bottom of the Power BI interface to explore different visualizations and insights.
 
@@ -67,17 +76,15 @@ To download the .pbix files, navigate to the folder in this repository where the
 
 
 
-### Process:
+## Process
 I downloaded the requisite dataset pertinent to the task and performed data cleansing. Utilizing the Power BI Desktop application, I created visualizations to discern trends. Additionally, I prepared measures to identify key performance indicators (KPIs).
 
-### Analysis:
+## Analysis
 
-   ## Call Centre Trends
+   ### Call Centre Trends
 The initial dashboard offers an exhaustive overview of call center metrics, emphasizing customer satisfaction, call volumes, and agent performance. It facilitates the identification of areas for enhancement in call center operations.
 
-     # Data Set:[Download Here](https://github.com/Raziask/PWC-PowerBI-Virtual-Internship/blob/main/01%20Call-Center-Dataset.xlsx)
-
-    # DAX Measures Used
+   ### DAX Measures Used
 
 ```Answered = CALCULATE(COUNT('Call Centre Trends'[Call Id]),FILTER('Call Centre Trends','Call Centre Trends'[Answered (Y/N)]="Y"))```
 
@@ -90,11 +97,11 @@ The initial dashboard offers an exhaustive overview of call center metrics, emph
 
 
 
-   ## Churn Analysis
+   ### Churn Analysis
 
 This dashboard was developed in response to a request from the telecom’s Retention Manager, highlighting key metrics pertaining to customer loyalty and retention. It visualizes data to forecast customer churn and identifies potential strategies to bolster customer retention. Access the live and interactive dashboards here.
 
-   # DAX Measures Used:
+   ### DAX Measures Used:
    
 ```% of Dependent = DIVIDE(CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Dependents]="yes",'01 Churn-Dataset'[Churn]="Yes"),CALCULATE(COUNT('01 Churn-Dataset'[Dependents]),'01 Churn-Dataset'[Churn]="Yes"),0)```
 
@@ -119,10 +126,10 @@ This dashboard was developed in response to a request from the telecom’s Reten
 ![image](https://github.com/user-attachments/assets/93e7bc69-ca0c-4f3a-b690-ab7a2dfc3e65)
 
 
-  ## Diversity & Inclusion
+  ### Diversity & Inclusion
 Focusing on the telecom client’s objective of enhancing gender balance at the executive management level, this dashboard visualizes metrics related to diversity and inclusion, providing insights into current trends and areas for intervention.
 
- #Dax Measures Used:
+  ### Dax Measures Used
  
 ``` % of Female = DIVIDE('Pharma Group AG'[Number of Female],'Pharma Group AG'[Number of Male]+'Pharma Group AG'[Number of Female])```
 
@@ -134,7 +141,13 @@ Focusing on the telecom client’s objective of enhancing gender balance at the 
 
 ![image](https://github.com/user-attachments/assets/b028ab38-7626-44b1-bf9f-d7c1121a8752)
 
-### What I Learned
+
+## Summary Of Data
+
+## Business Suggestions
+
+
+## What I Learned
 
 
 
