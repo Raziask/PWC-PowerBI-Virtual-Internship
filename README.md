@@ -70,7 +70,20 @@ To download the .pbix files, navigate to the folder in this repository where the
 
 
 Process:
-I downloaded the required data set related to task and 
+I downloaded the required data set related to task and did cleaning data set and made visualizations to  identify trends by useing the PowerBI Desktop application.Prepared some measures to identify the key performance indicators(KPI).
+
+Analysis:
+
+Measures Used in All Tasks:
+
+
+
+Call Centre Trends
+The first dashboard provides a comprehensive view of call centre metrics, focusing on customer satisfaction, call volumes, and agent performance. It aids in identifying areas for improvement in call centre operations
+
+
+
+
 
 
 
