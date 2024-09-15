@@ -40,7 +40,7 @@ Through meticulous data analysis and visualization, this project aims to support
 ### Data Analysis Process
 ---
 
-To do this, I will follow the six steps of the data analysis process: **Ask, Prepare, Process, Analyze and Share, and Act**.
+To do this, I will follow the six steps of the data analysis process: **Ask, Prepare, Process, Analyze and Share(Business Suggestions), and Act**.
 
 
   ## ASK
@@ -212,11 +212,92 @@ Focusing on the telecom client’s objective of enhancing gender balance at the 
 ## Summary Of Data
 ---
 
+**Diversity and Inclusion**
+
+•	Gender Distribution: Charts show the distribution of genders across different job levels, highlighting areas where there may be an imbalance.
+
+•	Job Level by Age: Graphs indicate the distribution of job levels by age, suggesting opportunities to diversify age groups within certain roles.
+
+•	Turnover Rate by Department: Data highlights departments with high attrition rates, indicating areas that may need targeted retention strategies.
+
+**Call Center Performance**
+
+•	Customer Satisfaction: Pie charts display average satisfaction ratings, suggesting areas for improvement in customer service.
+
+•	Call Handling: Bar graphs show the number of calls answered each month, indicating trends in call volume and potential staffing needs.
+
+•	Resolution Rates: Data on the percentage of resolved calls suggests opportunities to improve first-contact resolution through better tools and training.
+
+•	Agent Performance: Tables list individual agents’ performance metrics, such as the number of calls answered and average speed of answer, helping identify top performers and those needing support.
+
+**Customer Retention and Service Offerings**
+
+•	Customers At Risk: Data highlights a significant number of customers who might churn, suggesting the need for targeted retention strategies.
+
+•	Service Distribution: Charts show the distribution of services customers have signed up for, indicating opportunities for bundling or introducing new features.
+
+•	Pricing Strategies: Data on yearly and monthly charges can be used to review and optimize pricing strategies to attract and retain customers.
+
+These insights can help guide strategies to improve diversity and inclusion, optimize call center performance, and enhance customer retention and service offerings. 
+
+
+
 ## Business Suggestions
 ---
+   ### Call Centre 
+
+-	Enhance Customer Satisfaction: The pie chart showing the average satisfaction rating suggests focusing on areas where customer feedback is lower. Implementing training programs for agents to improve their communication and problem-solving skills can help boost satisfaction ratings.
+   
+-	Optimize Call Handling: The bar graph displaying the number of calls answered each month indicates trends in call volume. Analyzing these trends can help in optimizing staffing levels to ensure adequate coverage during peak times, reducing wait times and improving customer experience.
+  
+-	Improve Resolution Rates: The percentage of resolved calls can be increased by providing agents with better tools and resources to handle customer issues efficiently. Regularly updating the knowledge base and offering advanced training sessions can empower agents to resolve more calls on the first contact.
+  
+ -	Monitor Agent Performance: The tables listing individual agents’ performance metrics, such as the number of calls answered and average speed of answer, can be used to identify top performers and those who may need additional support. Recognizing and rewarding high-performing agents can boost morale and productivity.
+ 	
+- Reduce Average Speed of Answer: The average speed of answer in seconds is a critical metric. Implementing strategies to reduce this time, such as improving call routing systems or increasing the number of available agents during high-traffic periods, can enhance overall efficiency.
+- 
+- Analyze Monthly Trends: The data on calls answered each month from January to March can be used to identify seasonal trends or patterns. This information can help in planning and preparing for future fluctuations in call volume, ensuring consistent service quality.
+  
+- Implementing these strategies can help improve overall call center performance, leading to higher customer satisfaction and more efficient operations. 
+
+ ### Churn Analysis
+ 
+  - Target At-Risk Customers: The “Customers At Risk” section highlights a significant number of customers who might churn. Implement targeted retention strategies such as personalized offers, loyalty programs, or proactive customer service to address their concerns and keep them engaged.
+  
+  - Enhance Service Offerings: The “Services Customers Signed Up” section shows the distribution of services. Consider bundling popular services or introducing new features that complement existing ones to increase customer satisfaction and reduce churn.
+    
+  - Optimize Pricing Strategies: The “Yearly Charges” and “Monthly Charges” data can be used to review and optimize pricing strategies. Offering flexible payment plans or discounts for long term commitments might attract and retain more customers.
+  - Improve Customer Support: The “Number of Tickets” data suggests a need for efficient customer support. Investing in better support tools, training for support staff, and faster resolution times can improve customer satisfaction and reduce churn.
+ - 	Analyze Demographics: The “Demographics” section provides insights into the customer base. Tailoring marketing campaigns and service offerings to specific demographic groups can help in better targeting and retaining customers.
+  
+  -  onitor Payment Methods: The “Payment Method” data indicates the preferred payment options. Ensuring a seamless and secure payment process for these methods can enhance the customer experience and reduce churn.
+    
+ - 	Focus on High-Churn Segments: The “Churn Analysis” section highlights segments with higher churn rates. Conducting in-depth analysis to understand the reasons behind churn in these segments and addressing them can help in retaining more customers.
+ - 	
+ - 	Implementing these strategies can help improve customer retention, enhance service offerings, and optimize overall business performance
+   
+
+  ### Diversity & Inclusion
+  
+ -	Enhance Diversity and Inclusion: The charts show gender distribution across different levels. If there’s a noticeable imbalance, especially at higher levels, consider implementing programs to support the career advancement of underrepresented genders.
+	
+ - 	Targeted Recruitment: The job level by age graph suggests opportunities to diversify age groups within certain job levels. Tailoring recruitment strategies to attract a broader age range can help create a more dynamic and innovative workforce.
+	
+ - 	Reduce Turnover: The turnover rate by department highlights areas with high attrition. Investigate the reasons behind this and develop targeted retention strategies, such as improving work conditions, offering career development opportunities, or enhancing employee engagement.
+
+ - 	Promotion Policies: The promotion data can be used to review and ensure equitable promotion practices. If external hires are favored over internal promotions, consider policies that support internal career growth.
+	
+- Mentorship Programs: Establish mentorship programs to support employees from underrepresented groups, helping them navigate their career paths and achieve higher positions within the company.
+
+- Performance and Retention Analysis: Analyze the relationship between departmental performance and turnover rates. This can help identify if high performance expectations are contributing to higher turnover and address any underlying issues.
+  
+Implementing these strategies can help foster a more inclusive, balanced, and stable work environment.
 
 
-## What I Learned
+
+
+
+# What I Learned
 
 
 
